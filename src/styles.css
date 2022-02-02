@@ -1,0 +1,33 @@
+body,
+div,
+h1,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.divProductsAndCart {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgb(128, 128, 128);
+  border: 4px solid rgba(0, 0, 0, 0.397);
+  background-color: white;
+}
+
+body {
+  background-image: url("https://www.acidadeon.com/mundodosbichos/img/adestramento/__nsco_VCONT_OPT_P0_D0_C0_I693_H10208_i0x0_V3__patas.png");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100vh;
+}

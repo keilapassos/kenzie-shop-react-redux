@@ -1,0 +1,21 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(250, 141, 101);
+}
+
+.cartWordFromMenu {
+  margin: 5px;
+}
+
+.menuItem {
+  border-bottom: 4px solid transparent;
+}
+
+.menuItem:hover {
+  border-bottom: 4px solid white;
+}
+
+.cartAndLogin {
+  display: flex;
+}
